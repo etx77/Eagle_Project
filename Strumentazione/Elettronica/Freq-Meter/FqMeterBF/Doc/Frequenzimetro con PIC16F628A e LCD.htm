@@ -1,0 +1,215 @@
+<!-- Provided by MyFreeTemplates.com -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>Frequenzimetro con PIC16F628A e LCD</title>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type">
+<meta name="keywords" content="elettronica, PIC, PIC16F84A, PIC16F88, PIC16F628A, display, multiplex, programmatore, programmer, frequenzimetro, frequency, meter, counter, forum">
+<meta name="description" content="Frequenzimetro b.f. con PIC16F628A e LCD. Grazie al microcontrollore, che svolge tutte le funzioni necessarie, lo strumento e' compatto ed economico. Partecipa al forum per discutere del frequenzimetro.">
+<meta name="Author" content="eeng.biz">
+<meta name="robots" content="index, follow"><!-- (Robot commands: All, None, Index, No Index, Follow, No Follow) -->
+<meta name="revisit-after" content="10 days">
+<meta name="distribution" content="global">
+<meta name="rating" content="general">
+<meta name="Content-Language" content="italian">
+<link rel="shortcut icon" type="image/x-icon" href="http://www.eeng.biz/favicon.ico">
+<script language="JavaScript" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/myfreetemplates.js" type="text/JavaScript"></script>
+<link rel="stylesheet" type="text/css" href="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/myfreetemplates.css">
+</head>
+<body leftmargin="0" topmargin="0" onload="MM_preloadImages('images/btn_home_dn.jpg','images/btn_about_dn.jpg','images/btn_contact_dn.jpg','images/btn_products_dn.jpg','images/btn_support_dn.jpg','images/btn_news_dn.jpg')" marginheight="0" marginwidth="0">
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<tbody>
+<tr>
+<td height="87">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td rowspan="2" width="342"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/toplogo.jpg" border="0" height="87" hspace="0" width="342" align="bottom"></td>
+<td rowspan="2" width="34"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/topmidspace.jpg" height="87" width="34"></td>
+<td background="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/topbg.jpg"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/topbg.jpg" height="54" width="1"></td></tr>
+<tr>
+<td background="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/topnavbg.jpg"><a href="http://www.eeng.biz/index.htm"><img alt="" id="btn_home" name="btn_home" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/btn_home.jpg" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn_home','','images/btn_home_dn.jpg',1)" border="0" height="33" hspace="0" width="55" align="bottom"></a><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/navspacer.jpg" height="33" width="1"><img alt="" id="btn_about" name="btn_about" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/btn_about.jpg" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn_about','','images/btn_about_dn.jpg',1)" border="0" height="33" hspace="0" width="58" align="bottom"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/navspacer.jpg" height="33" width="1"><a href="http://www.eeng.biz/links.htm"><img alt="" id="btn_contact" name="btn_contact" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/btn_contact.jpg" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn_contact','','images/btn_contact_dn.jpg',1)" border="0" height="33" hspace="0" width="67" align="bottom"></a><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/navspacer.jpg" height="33" width="1"><a href="mailto:info@eeng.biz"><img alt="" id="btn_products" name="btn_products" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/btn_products.jpg" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn_products','','images/btn_products_dn.jpg',1)" border="0" height="33" hspace="0" width="79" align="bottom"></a><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/navspacer.jpg" height="33" width="1"> <img alt="" id="btn_support" name="btn_support" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/btn_support.jpg" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn_support','','images/btn_support_dn.jpg',1)" border="0" height="33" hspace="0" width="72" align="bottom"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/navspacer.jpg" height="33" width="1"><img alt="" id="btn_news" name="btn_news" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/btn_news.jpg" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn_news','','images/btn_news_dn.jpg',1)" border="0" height="33" hspace="0" width="50" align="bottom"></td></tr></tbody></table></td></tr>
+<tr>
+<td valign="top">
+<table background="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/topnavbg.jpg" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<tbody>
+<tr>
+<td colspan="2" background="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/basebg2.jpg" height="9"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/basebg2.jpg" height="9" width="1"></td></tr>
+<tr>
+<td rowspan="2" valign="top" width="150"></td>
+<td bgcolor="#ffffff" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td colspan="3" background="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/navbasebg.jpg" height="29"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/navbasebg.jpg" height="29" width="1"></td></tr>
+<tr>
+<td></td>
+<td width="25"></td></tr>
+<tr>
+<td width="40">&nbsp;</td>
+<td>
+<h1><br>
+'fmeter' - un frequenzimetro b.f. con PIC16F628A e LCD </h1>
+<p><font face="Verdana" size="2">Utilizzando un <strong>PIC16F628A</strong> e' possibile realizzare un frequenzimetro per segnali in bassa frequenza con visualizzazione su display LCD.</font> Sono richiesti pochi componenti ed il circuito e' molto compatto.</p>
+<p align="center"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/fmeter.jpg" border="1" height="380" hspace="0" width="598">
+</p><p align="center"><em><font size="1">Prototipo del 'fmeter'&nbsp; (v1.0 - ita)</font></em></p>
+<p><font face="Verdana" size="2"><strong>Principio di funzionamento</strong></font></p>
+<p><font face="Verdana" size="2">Contando i fronti di salita (o di discesa) di un'onda quadra in un intervallo di tempo prestabilito - il&nbsp;<em><strong>gate time</strong></em>
+ - e' possibile calcolarne la frequenza. Tale intervallo 
+viene&nbsp;impostato con precisione dal microcontrollore, dotato di 
+oscillatore al quarzo. La lunghezza del <em>gate time</em> determina la&nbsp;risoluzione: essa e' 1 Hz, scegliendo&nbsp;il <em>gate time</em> di 1 secondo. Inoltre,&nbsp;il numero dei fronti rilevati coincide con la frequenza.</font></p>
+<p><font face="Verdana" size="2">La generazione del <em>gate time</em> avviene tramite <strong>interrupt</strong>. </font><font face="Verdana" size="2">Il
+ segnale da misurare viene applicato al pin RB0, che puo' gestire 
+interrupt esterni: su ogni fronte di&nbsp;discesa rilevato al pin RB0 
+viene generato un interrupt e&nbsp;viene incrementata una variabile di 
+una unita'. Dopo 1 secondo il valore della frequenza e' disponibile e 
+puo' essere inviato al LCD. </font><font face="Verdana" size="2">Si assume che la frequenza sia costante per tutta la durata del <em>gate time</em>.</font></p>
+<p><font face="Verdana" size="2"><br>
+<strong>Realizzazione</strong></font>
+</p><p><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/fd.gif" border="0" height="14" hspace="0" width="14" align="bottom"><font face="Verdana" size="2"> </font><a target="_blank" href="http://www.eeng.biz/files/fmeter.pdf"><font face="Verdana" color="#000000" size="2"><strong>Schema del frequenzimetro in formato pdf (v1.0.2)</strong></font></a>&nbsp;
+</p><p><font face="Verdana" size="2">Il microcontrollore pilota il 
+display attraverso la PORTB. Il pin RB0, come gia' detto, e' riservato 
+per ricevere il segnale da misurare. L'alimentazione viene ricavata da 
+una pila a 9 V e regolata a 5 V con un integrato 78L05. L'assorbimento 
+di corrente circa 10 mA. Il diodo D1 protegge il circuito da accidentali
+ inversioni di polarita'.</font></p>
+<p><font face="Verdana" size="2">Lo stadio di ingresso piu' adatto 
+dipende dal tipo e dall'ampiezza del segnale da misurare. Nello 
+schema&nbsp;e' costituito semplicemente da una resistenza. In questo 
+modo e' possibile applicare onde quadre di ampiezza pari a 5 V (piu' 
+precisamente&nbsp;con livelli logici&nbsp;0 e +5 V) oppure segnali 
+sinusoidali che variano tra 0 e +5 V, visto che l'ingresso del PIC e' di
+ tipo Schmitt trigger. Invece, non e' possibile applicare segnali 
+negativi senza ulteriori accorgimenti.</font></p>
+<p><font face="Verdana" size="2">La misura viene effettuata sui fronti 
+di&nbsp;discesa del segnale di ingresso, visto che&nbsp;il bit INTEDG 
+del registro OPTION REG e' impostato a 0.</font></p>
+<p><font face="Verdana" size="2"><br>
+<strong><a name="parts"></a>Lista dei componenti</strong></font>
+</p><p>
+<table style="width: 601px; height: 164px" border="1" height="164" width="601">
+<tbody>
+<tr>
+<td bgcolor="#000080" width="19%"><font face="Verdana" color="#ffffff" size="2"><strong>Componente</strong></font></td>
+<td bgcolor="#000080" width="29%"><font face="Verdana" color="#ffffff" size="2"><strong>Valore</strong></font></td>
+<td bgcolor="#000080" width="19%"><font face="Verdana" color="#ffffff" size="2"><strong>Componente</strong></font></td>
+<td bgcolor="#000080" width="33%"><font face="Verdana" color="#ffffff" size="2"><strong>Valore</strong></font></td></tr>
+<tr>
+<td width="19%"><font face="Verdana" size="2">D1</font></td>
+<td width="29%"><font face="Verdana" size="2">1N4001 o eq.</font></td>
+<td width="19%"><font face="Verdana" size="2">C1</font></td>
+<td width="33%"><font face="Verdana" size="2">10 <font face="Symbol" size="2">m</font><font face="Verdana" size="2">F -&nbsp;25 V elettrolitico</font></font></td></tr>
+<tr>
+<td width="19%"><font face="Verdana" size="2">R1</font></td>
+<td width="29%"><font face="Verdana" size="2">10k ohm</font></td>
+<td width="19%"><font face="Verdana" size="2">C2 </font></td>
+<td width="33%"><font face="Verdana" size="2">10 <font face="Symbol" size="2">m</font><font face="Verdana" size="2">F -&nbsp;25 V elettrolitico</font>&nbsp; </font></td></tr>
+<tr>
+<td width="19%"><font face="Verdana" size="2">R2</font></td>
+<td width="29%"><font face="Verdana" size="2">4700 ohm</font></td>
+<td width="19%"><font face="Verdana" size="2">C3</font></td>
+<td width="33%"><font face="Verdana" size="2">100 nF ceramico</font></td></tr>
+<tr>
+<td width="19%"><font face="Verdana" size="2">R3</font></td>
+<td width="29%"><font face="Verdana" size="2">trimmer 10k&nbsp;ohm</font></td>
+<td width="19%"><font face="Verdana" size="2">C4, C5 </font></td>
+<td width="33%"><font face="Verdana" size="2">22 pF ceramici NP0</font></td></tr>
+<tr>
+<td width="19%"><font face="Verdana" size="2">LCD</font></td>
+<td width="29%"><font face="Verdana" size="2">display LCD (2x16)</font></td>
+<td width="19%"><font face="Verdana" size="2">X1</font></td>
+<td width="33%"><font face="Verdana" size="2">quarzo da 20 MHz</font></td></tr>
+<tr>
+<td width="19%"><font face="Verdana" size="2">U1</font></td>
+<td width="29%"><font face="Verdana" size="2">LM78L05</font></td>
+<td width="19%"><font face="Verdana" size="2">zoccolo</font></td>
+<td width="33%"><font face="Verdana" size="2">DIP18</font></td></tr>
+<tr>
+<td width="19%"><font face="Verdana" size="2">U2</font></td>
+<td width="29%"><font face="Verdana" size="2">PIC16F628A</font></td>
+<td width="19%"><font face="Verdana" color="#040404" size="2">batteria</font></td>
+<td width="33%"><font face="Verdana" color="#060606" size="2">9 V alcalina</font></td></tr></tbody></table></p>
+<p><font face="Verdana" size="2"><br>
+<strong>Misure di frequenza</strong></font>
+</p><p><font face="Verdana" size="2">Visto che il <em>gate time</em> e' 1
+ s, qualsiasi misura e' affetta da un errore di 1&nbsp;Hz. Inoltre 
+all'aumentare della frequenza la precisione diminuisce, restando 
+comunque ottima. </font></p>
+<p><font size="2">Sono state eseguite alcune misure di segnali campione 
+con un oscilloscopio e la frequenza e' stata confrontata con la lettura 
+del frequenzimetro.</font></p>
+<p><font face="Verdana" size="2"><strong>Segnale 1.</strong> &nbsp;5V (p-p), f= 199.3 Hz</font></p>
+<p align="center"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave1.png" border="0" hspace="0">
+</p><p><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave1.png" border="0" height="100%" hspace="0" width="100%">
+</p><p><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave1.png" border="0" height="0" hspace="0" width="0">
+</p><p align="center"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave1.jpg" border="0" height="219" hspace="0" width="434">
+</p><p><font face="Verdana" size="2"><strong>&nbsp;</strong></font><font face="Verdana" size="2"><strong>Segnale 2.</strong> 5V (p-p), f= 998.9 Hz</font></p>
+<p align="center"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave2.png" border="0" hspace="0">
+</p><p align="center"><font face="Verdana" size="2"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave2.jpg" border="0" height="214" hspace="0" width="444"></font>
+</p><p align="left"><font face="Verdana" size="2"><strong>Segnale 3.</strong> &nbsp;5V (p-p), f= 27.53 kHz</font></p>
+<p align="center"><font face="Verdana" size="2"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave3.png" border="0" hspace="0">
+</font></p><p align="center"><font face="Verdana" size="2"><img alt="" src="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/Wave3.jpg" border="0" height="216" hspace="0" width="434">
+</font></p><p><font face="Verdana" size="2">&nbsp;</font></p><font face="Verdana" size="2">
+</font><p><font face="Verdana" size="2"><br>
+<strong>Possibili variazioni</strong></font></p>
+<ul>
+<li>
+<div><font face="Verdana">
+<p><font ?2?="" face="Verdana" size="3"><font size="2">Sostituendo lo 
+stadio di ingresso a resistore&nbsp;con una rete di condizionamento del 
+segnale, e' possibile&nbsp;misurare la frequenza di altre forme 
+d'onda,&nbsp;con ampiezze maggiori e/o negative&nbsp;oppure amplificare 
+segnali deboli.</font> </font></p></font></div></li>
+<li>
+<div><font face="Verdana" size="2">
+</font><p><font face="Verdana" size="2"><font face="Verdana" size="2">Si puo' aggiungere un <em>prescaler</em>
+ per misurare frequenze di uno o due ordini di grandezza superiori; ad 
+esempio l'integrato 4017 e' un contatore decadico che accetta segnali 
+TTL con frequenza fino a 6 MHz (con Vdd=5 V). Prelevando il segnale da 
+una delle sue dieci uscite si ottiene una frequenza dieci volte 
+inferiore a quella dell'onda quadra applicata all'ingresso. Utilizzando 
+due 4017 in cascata, si riesce a dividere la frequenza del segnale per 
+100.</font></font><font face="Verdana" size="2"></font></p></div>
+</li><li>
+<div>
+<p><font face="Verdana" size="2">Sfruttando due pin della PORTA non usati si potrebbe impostare il <em>gate time </em>scegliendolo&nbsp;con
+ un dip-switch;&nbsp;oppure abilitare/disabilitare il prescaler. Queste 
+modifiche richiedono cambiamenti nel firmware.</font></p></div></li></ul>
+<p><font face="Verdana" size="2"></font>&nbsp;</p><font face="Verdana" size="2">
+<p><font size="2"><strong>Firmware:</strong> da questa sezione e' possibile scaricare il firmware piu' aggiornato.</font></p>
+<p><font size="2"><strong><a href="http://www.eeng.biz/files/fmeter1_0_4.hex">Download firmware - v1.0.4</a></strong> (Save as...); <a title="" href="http://www.eeng.biz/files/fmeter/fmeter.c"><strong>source code</strong></a> (Save as...).</font></p>
+<p>&nbsp;</p>
+<p><strong><font size="2">Revision history:</font></strong></p>
+<p><font size="2"><strong>v1.0 ita</strong> &nbsp;- 28/12/2006: first release (beta).</font></p>
+<p><font size="2"><strong>v1.0.3</strong> - 19/03/2007: versione stabile con modifiche minori.</font></p>
+<p><font size="2"><strong>v1.0.4</strong> - 15/04/2009: migliorata gestione degli interrupt&nbsp;secondo raccomandazioni della aplication note AN576 di Microchip.</font></p>
+</font><p><font face="Verdana" size="2"></font><font face="Verdana" size="2"><u><strong></strong></u></font>&nbsp;
+</p><p><font face="Verdana" size="2"><strong><u>Nota:</u></strong>&nbsp; l'utilizzo del circuito e del firmware e' inteso per&nbsp;uso personale o didattico solamente.
+</font></p><p><font face="Verdana" size="2"><br>
+<strong>Data sheet</strong></font></p>
+<ul>
+<li>
+<div><font size="2">PIC16F628A di Microchip: vedi&nbsp;<a target="_blank" href="http://www.microchip.com/"><font face="Verdana" size="2"><strong>www.microchip.com</strong></font></a> </font></div></li>
+<li>
+<div><font size="2"><strong><a target="_blank" href="http://www.eeng.biz/files/AN576.pdf">AN576</a></strong> aplication note</font></div></li>
+<li>
+<div><font size="2">integrato&nbsp;<font face="Verdana"><strong><a target="_blank" href="http://www.semiconductors.philips.com/acrobat/datasheets/HEF4017B_CNV_3.pdf">4017</a></strong></font></font></div></li></ul>
+<p>&nbsp;</p>
+<p><font face="Verdana" size="2"><br>
+</font>&nbsp;</p></td>
+<td width="25">&nbsp;</td></tr></tbody></table></td></tr>
+<tr>
+<td bgcolor="#ffffff">&nbsp;</td></tr></tbody></table></td></tr>
+<tr>
+<td background="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/basebg1.jpg" height="24" valign="middle" align="center">
+<p align="center">&nbsp;</p></td></tr>
+<tr>
+<td v="" background="Frequenzimetro%20con%20PIC16F628A%20e%20LCD_files/basebg2.jpg" height="25" valign="middle">
+<p align="center"><font color="#ffffff" size="1"><em>Si declina ogni 
+responsabilita' per errori ed inesattezze contenute in questa 
+documentazione e per danni di qualsiasi natura derivanti dall'uso dei 
+circuiti e dei programmi descritti. Nomi e marchi citati appartengono ai
+ rispettivi proprietari. Si fa divieto di riprodurre anche in parte i 
+contenuti di questa pagina e di quelle associate, in modo cartaceo o 
+elettronico, senza esplicito accordo con gli autori.</em> </font></p></td></tr></tbody></table>
+
+</body></html>

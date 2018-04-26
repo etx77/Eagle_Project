@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>E-Radiocontrol - Capacimetro e inductometro con PIC16F84 o PIC16F628</title><meta name="keywords" content="circuits electronics radiocontrolled circuitos electronicos radiocontrol aviones radiocontrolados planes models radiocontrol radio control Radiosteuerelektronikstromkreisservofutaba hitec Stunde vorbildliches Flächen aeromodelism aeromodelismo radiocontrolado 4017 rc R/C r/c RC zu steuern Empfänger des übermittlers PIC16F877 electronica radiocontrol proteccion failsafe microcontrolador PIC transmisor radiocontrol receptor rx tx codificador PPM PCM decodificador Pulse Position Modulation Modulacion pulso rc r/c ">
+<meta name="description" content="circuitos de radiocontrol, transmisor y receptor de radiocontrol electronics electronica del radiocontrol umkreist elektronische Elektronik r/c der Stromkreise r/c, um vorbildliche Flugzeuge zu steuern Todo sobre PPM PCM, electronica de transmisor y receptor, circuitos electronicos, aeromodelismo, automodelismo, rc r/c radio control ">
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><meta name="generator" content="CMSimple 3.0 - www.cmsimple.dk"><link rel="stylesheet" href="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/stylesheet.css" type="text/css"><link rel="shortcut icon" href="http://www.e-radiocontrol.com.ar/favicon.ico"><link rel="icon" href="http://www.e-radiocontrol.com.ar/favicon.ico" type="image/ico"></head>
+  
+  
+  <body bgcolor="#E5E5E5" link="#006699" text="#000000" vlink="#5493B4"><a name="TOP"></a>
+    <a id="TOP" name="TOP"></a>
+    <table class="bodyline" style="height:100%;" border="0" cellpadding="10" cellspacing="0" align="center" width="100%">
+      <tbody><tr>
+        <td height="100%" valign="top">
+          <table class="cmsline" style="height:100%;" border="0" cellpadding="0" cellspacing="0" align="center" width="900">
+            <tbody><tr>
+              <td colspan="2" valign="top">
+                <table style="height:100px;background-image: url(http://www.e-radiocontrol.com.ar/templates/e-radiocontrol2/rotate/rotate.php);" bgcolor="#006699" border="0" cellpadding="10" cellspacing="0" align="center" width="100%">
+                  <tbody><tr>
+                    <td class="sitename" height="80" valign="bottom">
+                      <font color="#FFA34F">E-Radiocontrol<br><small>Circuitos Electronicos de Radio Control</small></font>
+                    </td>
+                    <td align="right" valign="top">
+                      <table border="0" cellpadding="10" cellspacing="0" align="center" width="100%">
+                        <tbody><tr>
+                          <td class="searchbox" align="right" valign="top"><form action="/" method="post"><div id="searchbox"><input class="text" name="search" size="12" type="text"><input name="function" value="search" type="hidden"> <input class="submit" value="Buscar" type="submit"></div></form></td>
+                        </tr>
+                      </tbody></table>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr>
+              <td class="innerline" rowspan="2" bgcolor="#DEE3E7" height="100%" valign="top" width="200">
+                <table border="0" cellpadding="5" cellspacing="0" align="center" width="90%">
+                  <tbody><tr>
+		    <td <script="" src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/translatemypage.xml&amp;up_source_language=es&amp;w=160&amp;h=60&amp;title=&amp;border=&amp;output=js" valign="top"></td>
+		  </tr>
+		  <tr>
+                    <td valign="top"><ul class="menulevel1"><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Bienvenido">Bienvenido</a></li><li class="docs"><a href="http://www.e-radiocontrol.com.ar/?Documentacion">Documentacion</a></li><li class="docs"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_Radiocontrol">Circuitos de Radiocontrol</a></li><li class="docs"><a href="http://www.e-radiocontrol.com.ar/?Motores_Brushless">Motores Brushless</a></li><li class="docs"><a href="http://www.e-radiocontrol.com.ar/?Cargadores_de_baterias">Cargadores de baterias</a></li><li class="docs"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas">Circuitos de medicion y pruebas</a><ul class="menulevel2"><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas:Capacimetro_e_Inductometro%3A">Capacimetro e Inductometro:</a></li><li class="sdoc">Capacimetro e inductometro con PIC16F84 o PIC16F628</li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas:Probador_de_Servos">Probador de Servos</a></li></ul></li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_Proteccion">Circuitos de Proteccion</a></li><li class="docs"><a href="http://www.e-radiocontrol.com.ar/?Prototipo_de_Radiocontrol">Prototipo de Radiocontrol</a></li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Historia_del_R%2FC">Historia del R/C</a></li><li class="docs"><a href="http://www.e-radiocontrol.com.ar/?Fotos">Fotos</a></li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Downloads">Downloads</a></li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Lista_de_Correo">Lista de Correo</a></li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Chat">Chat</a></li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Foro">Foro</a></li><li class="doc"><a href="http://www.e-radiocontrol.com.ar/?Sitios_Interesantes">Sitios Interesantes</a></li></ul></td>
+                  </tr>
+		  <tr>
+	
+	<td align="center">
+	<script src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/ca-pub-7310828881715370.js" type="text/javascript" async=""></script><script type="text/javascript"><!--
+	google_ad_client = "pub-7310828881715370";
+	/* 200x90, creado 2/07/08 */
+	google_ad_slot = "7610068564";
+	google_ad_width = 200;
+	google_ad_height = 90;
+	//-->
+	</script>
+	<script type="text/javascript" src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/show_ads.js">
+	</script><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" frameborder="0" height="90" width="200"></iframe></ins></ins>	
+	<br>
+	<br>
+	<script type="text/javascript"><!--
+	google_ad_client = "pub-7310828881715370";
+	/* 200x200, creado 13/03/09 */
+	google_ad_slot = "7168924048";
+	google_ad_width = 200;
+	google_ad_height = 200;
+	//-->
+	</script>
+	<script type="text/javascript" src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/show_ads.js">
+	</script><ins id="aswift_1_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;" frameborder="0" height="200" width="200"></iframe></ins></ins>
+	<br>
+	<br>
+		<div><embed src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/group.swf" bgcolor="#FFFFFF" wmode="transparent" type="application/x-shockwave-flash" flashvars="a=FF6600&amp;b=100&amp;c=FFFFFF&amp;d=333333&amp;e=CCCCCC&amp;g=333333&amp;h=686768&amp;j=FFFFFF&amp;k=FF6600&amp;l=333333&amp;m=FFFFFF&amp;n=333333&amp;s=1" height="290" width="210"><br>[ <a href="http://e-radiocontrol.chatango.com/clonegroup">Copy this</a> | <a href="http://chatango.com/creategroup">Start New</a> | <a href="http://e-radiocontrol.chatango.com/">Full Size</a> ]</div>
+		<br>
+		<br>
+		<br>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7310828881715370";
+/* Vertical Principal */
+google_ad_slot = "7660649123";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/show_ads.js">
+</script><ins id="aswift_2_expand" style="display:inline-table;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent"><ins id="aswift_2_anchor" style="display:block;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;" frameborder="0" height="600" width="120"></iframe></ins></ins>
+		<br>
+		</td>
+		  </tr>
+                  <tr>
+                    <td class="menu" valign="top"><a href="http://www.e-radiocontrol.com.ar/?&amp;sitemap">Mapa de la web</a></td>
+                  </tr>
+                  <tr>
+                    <td class="menu" valign="top"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas:Capacimetro_e_inductometro_con_PIC16F84_o_PIC16F628&amp;print">Versión para imprimir</a></td>
+                  </tr>
+                  <tr>
+                    <td class="menu" valign="top"><a href="http://www.e-radiocontrol.com.ar/?&amp;mailform">Formulario de email</a></td>
+                  </tr>
+                  <tr>
+                    <td class="menu" valign="top"><a href="http://www.e-radiocontrol.com.ar/de/"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/de.gif" alt="de" class="flag" border="0"></a> <a href="http://www.e-radiocontrol.com.ar/en/"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/en.gif" alt="en" class="flag" border="0"></a> <a href="http://www.e-radiocontrol.com.ar/fr/"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/fr.gif" alt="fr" class="flag" border="0"></a> </td>
+                  </tr>
+                  <tr>
+                    <td class="login" valign="top"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas:Capacimetro_e_inductometro_con_PIC16F84_o_PIC16F628&amp;login">Identificador</a></td>
+                  </tr>
+                  <tr>
+                    <td class="menu" valign="top">Última actualización:<br>July 07. 2009 12:35:53</td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td bgcolor="white" height="100%" valign="top" width="500">
+                <table style="height:100%;" border="0" cellpadding="5" cellspacing="0" align="center" width="100%">
+                  <tbody><tr>
+                    <td class="locator" style="border: 2px #FFFFFF solid;" bgcolor="#E5E5E5" valign="top"><a href="http://www.e-radiocontrol.com.ar/?Bienvenido">Bienvenido</a> &gt; <a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas">Circuitos de medicion y pruebas</a> &gt; Capacimetro e inductometro con PIC16F84 o PIC16F628</td>
+                  </tr>
+                  <tr>
+                    <td height="100%" valign="top">		<script type="text/javascript"><!--
+		google_ad_client = "pub-7310828881715370";
+		/* Linea 5 Vinculos */
+		google_ad_slot = "2548685880";
+		google_ad_width = 728;
+		google_ad_height = 15;
+		//-->
+		</script>
+		<script type="text/javascript" src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/show_ads.js">
+		</script><ins id="aswift_3_expand" style="display:inline-table;border:none;height:15px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_3_anchor" style="display:block;border:none;height:15px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;" frameborder="0" height="15" width="728"></iframe></ins></ins>
+		<br><br>
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-7310828881715370";
+		/* Bloque 1 */
+		google_ad_slot = "0055336903";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript" src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/show_ads.js">
+		</script><ins id="aswift_4_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_4_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_4" name="aswift_4" style="left:0;position:absolute;top:0;" frameborder="0" height="90" width="728"></iframe></ins></ins>
+		    
+		<h2>Capacimetro e inductometro con PIC16F84 o PIC16F628</h2>Siempre 
+quise un inductometro de buena presicion y con un display para lectura 
+directa. El siguiente instrumento desarrollado por <a href="http://ironbark.bendigo.latrobe.edu.au/%7Erice/lc/">Phil Rice (VK3BHR)</a>
+ con la ayuda de otros colegas es de lo mejor que pude encontrar en 
+internet como para hacer un exelente instrumento de nuestro laboratorio.
+ Es facil de hacer, segun el autor, tiene una presicion muy buena.. el 
+error es de alrededor de 1% para componentes que se midan de alto Q. 
+Tiene un rele para saltar automaticamente de rango y la verdad es que me
+ ha sorprendido lo bien que funciona.<br><br>El circuito es el siguiente:<br><div style="text-align: center;"><a href="http://www.e-radiocontrol.com.ar/images/lcmeter_circuito.gif"><img style="width: 556px; height: 261px;" src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_circuito.gif"><br><span style="font-weight: bold;">Click para ampliar</span></a><br><br><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto2.gif"><br style="font-weight: bold;"><span style="font-weight: bold;">Una foto del circuito ya terminado con un rele micro</span><br></div><br>El
+ circuito funciona utilizando un operacional como oscilador LM311, el 
+cual varia la frecuencia segun la inductancia o capacidad que se le 
+conecte. El PIC lo que hace es tomar dos mediciones, una con el 
+capacitor de prueba Ccal y luego con el valor de inductancia o capacidad
+ incognita.<br>El programa del PIC lo que hace es calcular estas 
+complejas ecuaciones para obtener el valor de inductancia o capacidad 
+segun como este la llave L/C.<br><br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_formulas.jpg"><br><span style="font-weight: bold;">Formulas que calcula el programa del PIC<br></span><div style="text-align: left;"><br>El
+ autor comenta es su articulo original que lo que hizo para no ocupar 
+toda la memoria del PIC16F84 es utilizar unas tablas de Microchip y de 
+esta forma obtener unas constantes, las cuales resuelven en mucho las 
+ecuaciones.<br><br>En el circuito hay unos jumpers, que son LK1, LK2 y LK3, los cuales sirven para hacer algunas pruebas como veremos mas adelante.<br><br>El
+ display utilizado es del tipo "inteligente", en teoria tiene que ser un
+ display de 1x16, es decir, 16 caracteres por una sola linea.. El cual 
+deberia verse algo asi:<br><br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto3.jpg"><br><span style="font-weight: bold;">Display de 16x1 Caracteres "inteligente"</span><br></div><br>En
+ mi caso no pude conseguir aca en Mendoza Argentina estos displays de 
+1x16, solo podia encontrar en el mercado 2x16, por lo tanto me puse a 
+investigar un poco sobre las diferencias entre ambos displays y la 
+verdad es que no hay muchas. Ambos tipos de display pueden venir de 14 o
+ 16 pines, donde la diferencia esta solo en que los ultimos dos pines 
+corresponden a la luz de fondo del display o backlight.&nbsp; Lo 
+interesante es que la disposicion de pines es la misma, solo varia en 
+que si tenemos uno de 2x16 el programa tiene que contemplar el 
+desplazamiento a un nuevo registro del display y de esta forma podriamos
+ usar la segunda linea.<br>Con uno de 2x16 desperdiciamos la segunda 
+linea, pero eso no quita en una proxima version del formware del PIC se 
+pueda medir una variable en una linea y otra en otra.<br><br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto4.jpg"><br><span style="font-weight: bold;">Displays inteligentes uno de 1x16 y otro de 2x16 con backlight</span><br></div><br><br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto5.jpg"><br><span style="font-weight: bold;">Vista de atras de ambos displays, los cuales son 100% compatibles para este proyecto<br><br></span><br><table bgcolor="#666666" border="0" cellpadding="0" cellspacing="1" align="center" width="410"><tbody><tr><td height="81" width="482"><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" align="center" width="410"><tbody><tr><td height="81" width="482"><table bgcolor="#f9f9f9" border="0" align="center" width="495"><tbody><tr><td bgcolor="#ffffcc" width="53"><div align="center"><strong>PIN</strong></div></td>
+                                            <td style="text-align: center;" bgcolor="#ffffcc" width="100"> 
+                                              <span style="font-weight: bold;">Simbolo</span><br></td>
+                                            <td bgcolor="#ffffcc" width="252"> 
+                                              <div align="center"><strong>Funcion</strong></div></td>
+                                            <td bgcolor="#ffffcc" width="72">
+<div align="center"><strong>Estados</strong></div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">1</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">VSS</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">GND</div></td>
+                                            <td bgcolor="#ffffff">
+<div align="center">-</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">2</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">VDD</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">VCC +5V</div></td>
+                                            <td bgcolor="#ffffff">
+<div align="center">+</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">3</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">VO</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">Contraste</div></td>
+                                            <td bgcolor="#ffffff">
+<div align="center">+/-</div></td>
+                                          </tr>
+                                          <tr bgcolor="#e9ffd5"> 
+                                            <td> 
+                                              <div align="center">4</div></td>
+                                            <td> 
+                                              <div align="center">RS</div></td>
+                                            <td> 
+                                              <div align="center">Selector de registro<br></div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr bgcolor="#ffffff"> 
+                                            <td> 
+                                              <div align="center">5</div></td>
+                                            <td> 
+                                              <div align="center">R/W</div></td>
+                                            <td> 
+                                              <div align="center">Lectura/Escritura</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr bgcolor="#e9ffd5"> 
+                                            <td> 
+                                              <div align="center">6</div></td>
+                                            <td bgcolor="#e9ffd5"> 
+                                              <div align="center">E</div></td>
+                                            <td> 
+                                              <div align="center">Señal de Habilitacion<br></div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td> 
+                                              <div align="center">7</div></td>
+                                            <td> 
+                                              <div align="center">DB0</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                0 (datos)<br> </div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td> 
+                                              <div align="center">8</div></td>
+                                            <td> 
+                                              <div align="center">DB1</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                1 (datos)</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td> 
+                                              <div align="center">9</div></td>
+                                            <td> 
+                                              <div align="center">DB2</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                2 (datos)</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td> 
+                                              <div align="center">10</div></td>
+                                            <td> 
+                                              <div align="center">DB3</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                3 (datos)</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr bgcolor="#e9ffd5"> 
+                                            <td> 
+                                              <div align="center">11</div></td>
+                                            <td> 
+                                              <div align="center">DB4</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                4 (datos)</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr bgcolor="#e9ffd5"> 
+                                            <td height="15"> 
+                                              <div align="center">12</div></td>
+                                            <td> 
+                                              <div align="center">DB5</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                5 (datos)</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr bgcolor="#e9ffd5"> 
+                                            <td> 
+                                              <div align="center">13</div></td>
+                                            <td> 
+                                              <div align="center">DB6</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                6 (datos)</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr bgcolor="#e9ffd5"> 
+                                            <td> 
+                                              <div align="center">14</div></td>
+                                            <td> 
+                                              <div align="center">DB7</div></td>
+                                            <td> 
+                                              <div align="center">Bit 
+                                                7 (datos)</div></td>
+                                            <td> 
+                                              <div align="center">H/L</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">15</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <br></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">LED Luz de fondo 
+                                                VCC +5V</div></td>
+                                            <td bgcolor="#ffffff">
+<div align="center">+</div></td>
+                                          </tr>
+                                          <tr> 
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">16</div></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <br></td>
+                                            <td bgcolor="#ffffff"> 
+                                              <div align="center">LED Luz de fondo GND</div></td>
+                                            <td bgcolor="#ffffff">
+<div align="center">-</div></td>
+                                          </tr>
+                                        </tbody></table></td>
+                                    </tr>
+                                  </tbody></table></td>
+                              </tr>
+                            </tbody></table>
+                            <br><div style="text-align: left;"><h4 style="font-weight: bold;">Programa del PIC</h4>El
+ circuito funciona como deciamos tomando lectura de la frecuencia 
+obtenida a traves del capacitor de calibracion y luego el capacitor que 
+se le conecte como incognita. El circuito es 100% compatible para un 
+PIC16F628 ya que es la version mejorada del 16F84. <br><a href="http://www.e-radiocontrol.com.ar/?download=lcmeter007_16F84.hex"><span style="font-weight: bold;">Programa PIC16F84</span></a><br><a href="http://www.e-radiocontrol.com.ar/?download=lcmeter007_16F628.hex"><span style="font-weight: bold;">Programa PIC16F628</span></a><br><br>Si
+ estas interesado en modificar el programa para luego compilarlo 
+deberias primero leer el articulo original donde el autor dice como hay 
+que hacer para compilarlo y brinda el codigo fuente del mismo.<br><a href="http://www.e-radiocontrol.com.ar/?download=lcmeter007.txt">Codigo fuente</a><br><h4 style="font-weight: bold;">Ajustes</h4>Los
+ ajustes iniciales se basan en hacer las mediciones tipicas, medir la 
+tension de alimentacion en los CI y luego medir la señales logicas como 
+por ejemplo en el PIN 4 donde tenesmos que tenes 5v hasta que se 
+presiones el pulsador de ajuste de cero, donde deberiamos tener 0v. 
+Luego seria conveniente ajustar el contraste del Display con el preset y
+ asi asegurarnos que cuando pongamos el PIC en su zocalo tengamos buena 
+lectura. Tambien se puede probar que al cortocircuitar LK2 el rele 
+"pega" y switchea el capacitor a masa.<br><br>Para ayudar a la deteccion
+ de problemas el programa del PIC incluye una rutina de prueba, para 
+ingresar a la misma&nbsp; se debe poner un jumper en LK1 y presionar el 
+pulsador. Cuando esto ocurre el PIC entra en la rutina de prueba y nos 
+dice la frecuencia del oscilador interno, el cual tiene que ser 
+alrededor de 55000, en mi caso midio 56002, lo cual esta bien segun el 
+autor mientras que no sea major a 655.350KHz, en este caso el oscilador 
+estaria muy sobre el limite y el PIC no mediria bien dentro del rango. 
+En el caso que el oscilador este por encima de este valor maximo en el 
+display se deberia poder leer "Over Range", lo cual nos indica que 
+estamos fuera de rango. En el caso que el oscilador no funcione, 
+simplemente veriamos un 0 indicando que no esta oscilando o que por lo 
+menos no tenemos señal en el pin de entrada.<br>El segundo Jumper LK2 
+switchea el rele y hace la medicion con el capacitor conectado, esta 
+medicion deberia mostrar en la pantalla algo asi como 394KHz.<br>Por 
+ultimo el tercer jumper (LK3) sirve solo si es que conectamos un display
+ de 1x16 de los viejos y tenemos el problema de que no vemos la magnitud
+ de lo que se esta midiendo, se pierden los caracteres de pF, uH, etc...
+ en este caso tendriamos que dejarlo jumpeado.<br><h4 style="font-weight: bold;">Operacion</h4>En
+ la operacion es muy parecido a un ohmetro a aguja, donde lo que hacemos
+ es ajustar antes de tomar la medicion. Para un inductor, solamente 
+ponemos un cortocircuito y presionamos el boton de "zero" para que tome 
+la referencia y luego medimos la misma. Para un capacitor solo tenemos 
+que dejar abierto mientras se presiona el boton del switch.<br><br><span style="font-weight: bold;"></span></div></div><br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto6.jpg"><br>Esta es mi version del capacimetro/inductometro, previo a los ajustes.<br></div><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span></div></div><br><h4 style="font-weight: bold;">Que tan preciso?</h4>Bueno
+ eso depende tambien de como se lo use ya que es necesario que los 
+componentes que se midan tenga un cierto Q mas bien elevado. Como el PIC
+ esta haciendo una medicion de la frecuencia del oscilador cualquier 
+componente que se conecte y que haga oscilar al oscilador se va a 
+reportar como un capacitor o un inductor segun sea como este puesto el 
+switch de L/C. Pro ejemplo una resistencia de 22 Ohms sale como una 
+bobina de 3.14uH o un capacitor de 119nF (0.119uF) y esto no es ni 
+remotamente cerca de la realidad!!<br> <p>Cuando el componente tiene un 
+alto Q, lo cual es altamente deseado en un circuito sintonizado "Y" el 
+switch de L/C esta puesto correctamente el circuito mide con errores de 
+menos del 1%.</p><p>El autor ha chequeado la presicion de este circuito 
+contra un puente Marconi, los resultados le dieron para capacitores de 
+33pF hasta 0.22uF los errores dieron menosres al 1% y para bobinas de 
+desde 60uH a 475uH&nbsp; el error dio entre 1% y 2%.<br></p><p>No hay 
+sospechas de que el circuito tenga un comportamiento no lineal para los 
+valores muy bajos de componentes porque recordemos que es una medicion 
+de frecuencia, la cual es directamente proporcional a la diferencia de 
+frecuencia.<br>
+</p><h4 style="font-weight: bold;">Conclusion</h4>Contruyendo este 
+circuito con los peores componentes que puedes tener ahi en tu caja de 
+componentes reciclados, la lectura puede ser como mucho con un error del
+ 3%, mientras que si le pones empeño y consigues componentes de buena 
+calidad deberia ser siempre mejor que el 1%.<br>Ahora es posible diseñar un circuito sintonizado, contruirlo y tener la frecuencia de resonancia todas las veces de primera.<br><br><h4 style="font-weight: bold;">Mi version del proyecto (alejandro Weber)</h4>Este es el circuito impreso:<br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_pcb2.gif"><br><span style="font-weight: bold;">Circuito impreso (ver mas abajo!!!)</span><br></div><br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_comp2.gif"><br><span style="font-weight: bold;">Disposicion de los componentes</span><br></div><br><span style="font-weight: bold;">Fe de erratas</span>:
+ En este circuito impreso esta mal puesto el jumper que deberia 
+alimentar el PIC con 5V en el pin 14, el puente figura como que puentea a
+ 0V, lo que hay que hacer es puentear un poco mas arriba a 5V. Todo el 
+resto del mismo funciona OK como ven en las fotos siguientes<br><a href="http://www.e-radiocontrol.com.ar/?download=lcmeter.brd">Archivo de eagle</a><br><h4 style="font-weight: bold;">Algunas fotos de mi proyecto</h4><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto10.jpg"><br><span style="font-weight: bold;">Circuito terminado, listo para ser probado</span><br></div><br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto7.jpg"><br><span style="font-weight: bold;">Midiendo una inductancia<br><br><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto8.jpg"><br>Midiendo un capacitor<br><br><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_foto9.jpg"><br>Circuito terminado en la caja<br></span></div><br><h4><span style="font-weight: bold;">Version del radioclub Holandes PI4ZLB<br></span></h4>El siguiente circuito impreso y disposicion de componentes fue diseñado por <span style="font-weight: bold;">el radioclub PI4ZLB </span>el cual lo hace mas compacto ya que aprovecha el display para sostener la placa<br><div style="text-align: center;"><img src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_pcb.gif"><br><span style="font-weight: bold;">Circuito impreso del capacimetro/inductometro por PI4ZLB<br><br><a href="http://www.e-radiocontrol.com.ar/images/lcmeter_comp.gif"><img style="width: 482px; height: 326px;" src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/lcmeter_comp.gif"><br>Click para ampliar</a><br></span><span style="font-weight: bold;"></span></div><span style="font-weight: bold;">&nbsp;<br></span><h4><span style="font-weight: bold;"></span></h4><span style="font-weight: bold;"><br></span>
+				<br>
+                      <p>
+                        &nbsp;
+                      </p>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr>
+              <td valign="bottom">
+                <table class="innerline" bgcolor="#5493B4" border="0" cellpadding="5" cellspacing="0" width="100%">
+                  <tbody><tr>
+                    <td class="navigator" valign="top" width="33%"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas:Capacimetro_e_Inductometro%3A">&lt;</a></td>
+                    <td class="navigator" align="center" valign="top" width="33%"><a href="#TOP">ARRIBA</a></td>
+                    <td class="navigator" align="right" valign="top" width="33%"><a href="http://www.e-radiocontrol.com.ar/?Circuitos_de_medicion_y_pruebas:Probador_de_Servos">&gt;</a></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <!-- YOU ARE NOT ALLOWED TO REMOVE OR HIDE THIS LINK WITHOUT A COMMERCIAL LICENCE -->
+          <div style="height:20px;" class="copyright" align="center">
+            <a href="http://www.cmsimple.dk/" class="copyright">Powered by CMSimple</a>
+	    <br>
+</div>
+          <!-- IF REMOVE OR HIDE: Then you must pay for a licence - see http://www.cmsimple.dk/?Licence -->
+        </td>
+      </tr>
+    </tbody></table><div id="link64_vdp_tabid" style="display:none;">1006</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="E-Radiocontrol%20-%20Capacimetro%20e%20inductometro%20con%20PIC16F84%20o%20PIC16F628_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7879549-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+  
+
+</body></html>

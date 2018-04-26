@@ -1,0 +1,87 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F628A -RA -DL -O11111114 -fo20 -N"H:\PRJ_EAGLE\Strumentazione\Elettronica\Freq-Meter\FqMeterBF\Doc\MicroC\FreqBF_Erik.mcppi" -SP"C:\Program Files (x86)\mikroC PRO for PIC\defs\" -SP"C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\" -SP"H:\PRJ_EAGLE\Strumentazione\Elettronica\Freq-Meter\FqMeterBF\Doc\MicroC\" -SP"C:\Users\kikom\Documents\eagle\Strumentazione\Elettronica\Freq-Meter\FqMeterBF\Doc\MicroC\" "FreqBF_Erik.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_EEPROM.mcl" "__Lib_PWM_b3.mcl" "__Lib_UART_b21.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl"	 
+diagnostics: 0	121	Compilation Started	P16F628A.c
+diagnostics: 373	122	Compiled Successfully	P16F628A.c
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Math.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_MathDouble.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_System.c' not found	 
+diagnostics: 0	121	Compilation Started	__Lib_Delays.c
+diagnostics: 123	122	Compiled Successfully	__Lib_Delays.c
+error: 123	324	Undeclared identifier '_Mul_32x32_U' in expression	__Lib_Delays.c
+error: 123	324	Undeclared identifier '_Mul_32x32_U' in expression	__Lib_Delays.c
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_CType.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_CString.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_CStdlib.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_CMath.c' not found	 
+diagnostics: 0	121	Compilation Started	__Lib_MemManager.c
+warning: 34	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+warning: 38	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+warning: 80	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+warning: 86	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+warning: 109	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+warning: 124	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+warning: 196	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+diagnostics: 231	122	Compiled Successfully	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 231	324	Undeclared identifier '_Mul_8X8_U' in expression	__Lib_MemManager.c
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Conversions.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Sprinti.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Sprintl.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Time.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Trigonometry.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Button.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Keypad4x4.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Manchester.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_OneWire.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_PS2.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Sound.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_SoftI2C.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_SoftSPI.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_SoftUART.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_EEPROM.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_PWM_b3.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_UART_b21.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_CF.c' not found	 
+diagnostics: 0	121	Compilation Started	__Lib_GlcdFonts.c
+diagnostics: 1207	122	Compiled Successfully	__Lib_GlcdFonts.c
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Glcd.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_LcdConsts.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Lcd.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_RS485.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_S1D13700.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_T6963C.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_Math.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_MathDouble.c' not found	 
+error: 0	340	File 'C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\__Lib_System.c' not found	 
+diagnostics: 0	121	Compilation Started	__Lib_Delays.c
+diagnostics: 123	122	Compiled Successfully	__Lib_Delays.c
+error: 123	324	Undeclared identifier '_Mul_32x32_U' in expression	__Lib_Delays.c
+error: 123	324	Undeclared identifier '_Mul_32x32_U' in expression	__Lib_Delays.c
+error: 0	102	Finished (with errors): 06 feb 2016, 10:32:11	FreqBF_Erik.mcppi
